@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <fieldset>
+        <legend>Personal Details</legend>
+    <form>
+        <label for="fname">First Name :</label>
+        <input type="text" name="First Name" id="fname">
+        <br><br>
+        <label for="mname">Middle Name :</label>
+        <input type="text" name="Midddle Name" id="mname">
+        <br><br>
+        <label for="Lname">Last Name :</label>
+        <input type="text" name="Last Name" id="Lname">
+        <br><br>
+        <label for="Gender">Gender</label>
+        <br>
+        <input type="radio" name="Gender" id="Gende">
+        <label for="Gende">Male</label>
+        <br>
+        <input type="radio" name="Gender" id="fm">
+        <label for="fm">Female</label>
+        <br>
+        <input type="radio" name="Gender" id="Gend">
+        <label for="Gend">Other</label>
+        <br><br>
+        <label for="DOB">DOB</label>
+        <input type="datetime-local" name="DOB" id="DOB">
+        <br>
+        <label for="phone">Phone :</label>
+        <input type="text" name="phone" id="phone" placeholder="+91" disabled required size="3">
+        <input type="text" name="phone" id="phone" size="10" maxlength="10">
+        <br><br>
+        <label for="add">Addresh</label><br>
+        <textarea name="Addresh" id="add" cols="80" rows="5"></textarea><br>
+        <br>
+        <label for="em">Email :</label>
+        <input type="email" name="email" id="em">
+        <br><br>
+        <label for="ps">Password :</label>
+        <input type="password" name="Passwprd" id="ps">
+        <br><br>
+        <label for="rps">Re-type Password :</label>
+        <input type="password" name="Passwprd" id="rps">
+        <br><br>
+        <input type="checkbox" name="terms" id="ch">
+        <label for="ch">Agree to terms and conditions</label>
+        <br><br>
+        <label for="fi">Choose File</label>
+        <input type="file" name="file" id="fi">
+        <br><br>
+        <label for="colour">Choose Color</label>
+        <input type="color" name="color" id="colour">
+        <br><br>
+
+    <input type="reset" value="reset">
+    <input type="submit" value="submit">
+    </form>
+</fieldset>
+</body>
+</html>
